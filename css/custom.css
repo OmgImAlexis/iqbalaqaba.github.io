@@ -143,6 +143,21 @@ body{
   padding-bottom:25px;
 }
 
+.hover-card:hover{
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+  padding: 10px;
+  margin: 5px;
+  color: #1e88e5;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.hover-card a{
+  text-decoration: none;
+}
+
 /* Button */
 .btn-custom{
   background-color: #2196f3;
@@ -184,4 +199,84 @@ body{
 
 .btn-md{
   border-radius: 100px;
+}
+
+/* About style */
+.about{
+  min-height: 300;
+  margin-top:90px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #424242;
+  color:#fafafa;
+}
+
+.about:hover{
+  transition: 0.5s;
+  color: #212121;
+  background-color: #fafafa;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+
+.profile{
+  padding-top: 25px;
+}
+
+/*
+.img-responsive{
+ box-shadow: 0 0 20px #616161; 
+}*/
+
+.img-responsive:hover{
+ box-shadow: none;
+}
+
+.detail{
+  padding: 10 5 10 5px;
+}
+
+.detail h2{
+  font-family: 'Raleway',sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.detail p{
+  font-weight: 300;
+  font-size: 0.95em;
+}
+
+@media only (max-width: 900px){
+  .detail p{
+    font-size: 12x;
+  }
+  .profile{
+  /*padding: 20px 0px 20px px;*/
+}
+
+.detail h2{
+    text-align: center;
+  }
+  .about{
+    margin-top: 30px;
+  }
+}
+@media (max-width: 500px){
+  .detail p{
+    font-size: 18.5px;
+  }
+
+  .detail h2{
+    text-align: center;
+  }
+  /*.profile{
+  padding: 20px 20px 10px 20px;*/
+}
+
+.skill{
+  margin-top: 10px;
+  padding:5px;
+  background-color: #eceff1;
+}
 }
