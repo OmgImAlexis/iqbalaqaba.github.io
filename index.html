@@ -7,6 +7,9 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -21,52 +24,120 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"> Iqbal's Portfolio </a>
+      <a class="navbar-brand" href="#" style="color: #009688;"> <strong> Iqbal's Portfolio </strong> </a>
     </div>
     <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> About </a></li>
-        <li><a href="#"> Gallery </a></li>
-        <li><a href="#"> Contact </a></li>
+        <li><a href="#" style="color: #009688;"> About </a></li>
+        <li><a href="#" style="color: #009688;"> Gallery </a></li>
+        <li><a href="#" style="color: #009688;"> Contact </a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <!-- Navbar -->
+
 <!-- Heads -->
 <div class="container-fluid text-center">
   <div class="col-lg-12 heads">
-    <h1 class="animated fadeIn"> Iqbal Aqaba Putera</h1>
-    <h5 class="animated fadeInDown"> Front end website developer. <span class="hidden-xs hidden-md"> Born in Sragen, Central Java, Indonesia. Love minimalist, flat and materialism design. </span></h5>
+    <h1 class="animated fadeIn"> Iqbal</h1>
+    <h5 class="animated fadeInDown"> Front end website developer <span class="hidden-xs hidden-md"> from <span class="hover-card"> <a href="https://goo.gl/maps/SqdCEusHfSK2" target="_blank">Sragen, Central Java, Indonesia.</a></span> Love minimalist, flat and materialism design. </span></h5>
     <p> Scroll down </p>
       <div class="animated bounce infinite"> 
-        <button type="button" class="btn btn-md btn-custom">
+        <button type="button" class="button btn-md btn-custom">
           <i class="fa fa-angle-double-down fa-2x" aria-hidden="true"> </i> 
         </button>
       </div>
   </div>  
 </div>
 <!-- Heads -->
+
 <!-- About me -->
-<div class="container-fluid animated fadeIn">
-  <div class="col-lg-12 about">
-    <div class="col-lg-4 profile text-center">
-      <img src="http://placehold.it/250" class="img-responsive img-circle hidden-md center-block" alt="profile-img">
+<div class="container-fluid about">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1>About me </h1>
+      <hr style="border:1px solid #009688; width: 20%; margin-bottom: 35px;">
     </div>
-    <div class="col-lg-8 detail">
-      <h2> About</h2>
-      <p> My name is Iqbal Aqaba Putera. Born in <span class="hover-card"> <a href="https://goo.gl/maps/SqdCEusHfSK2" target="_blank">Sragen, Central Java, Indonesia.</a></span> at 3rd October,1996. I can speak in Bahasa Indonesia, Javanese Language or English. A gamers, coders, and cat lovers. If you needs help just contact me at <span class="hover-card"> <a href="mailto:iqbalaqaba96@gmail.com" > iqbalaqaba@gmail.com </a> </span>. If you interested with me you can see my skills below. Good to know you !</p>
+
+    <!-- Story -->
+    <div class="col-lg-4 story-card">
+      <h4 class="text-center">My story</h4>
+      <p> My full name is <strong> Iqbal Aqaba Putera </strong>. I'm born in the great village Sragen, Central Java, Indonesia at 3rd October. My hobby is reading a geek books, playing some cool games and pat my cat. I'm front end webiste developer that familiar with HTML, CSS, and Bootstrap Framework. My favourite design style is flat, minimalism and materialism. My favourite color code is <span style="color: #009688"> #009688 </span>. I'd like to help or joining at your website project, just contact me via email at <a href="mailto:iqbalaqaba96@gmail.com">iqbalaqaba96@gmail.com </a> </p>
     </div>
+
+    <!-- Sosmed -->
+    <div class="col-lg-4 about-card" style="margin-top: 20px;">
+      <img src="http://placehold.it/150" class="img-responsive img-circle center-block" alt="img-icon">
+      <h5 class="text-center"> Social Media </h5>
+      <p class="text-center"> Keep in touch with me </p>
+      <p class="text-center">
+        <a href="#" style="color: #fafafa">
+          <i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        &nbsp; &nbsp;
+        <a href="#" style="color: #fafafa">
+          <i class="fa fa-3x fa-github-square" aria-hidden="true"></i>  
+        </a>
+        &nbsp; &nbsp;
+        <a href="#" style="color: #fafafa">
+          <i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </p>
+    </div>
+
+    <!-- History -->
+    <div class="col-lg-4 history">
+      <h4 class="text-center"> History </h4>
+      <!-- collapse menu -->
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                Education History
+              </a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <ul>
+                <li> Studying at Kapas Madya Surabaya Kindergarten</li>
+                <li> Studying at Sragen 8 National Elementary Schools </li>
+                <li> Studying at Karangmalang 1 National Junior High School </li>
+                <li> Studying at Widya Wisata Private Vocational High School </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                Job Experience
+              </a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul>
+                <li> Studying at Kapas Madya Surabaya Kindergarten</li>
+                <li> Studying at Sragen 8 National Elementary Schools </li>
+                <li> Studying at Karangmalang 1 National Junior High School </li>
+                <li> Studying at Widya Wisata Private Vocational High School </li>
+              </ul>
+            </div>
+          </div>
+        </div>       
+  <!-- collapse menu -->
+      </div>
+    </div>
+    <!-- History -->
   </div>
-</div>
 <!-- About me -->
+
 </div>
 <!-- Main container fluid end here -->
-
-<!-- CSS -->
-<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
