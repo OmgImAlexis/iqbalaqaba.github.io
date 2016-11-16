@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Raleway:700');
 
 body{
-  background-color: #fafafa;
+  background-color: #ededed;
   color:#212121;
   font-family: 'Roboto';
   font-weight: 300;
@@ -11,7 +11,7 @@ body{
 
 /* Navbar Styling */
 .navbar-custom {
-  background-color: #fafafa;
+  background-color: #ededed;
   margin-bottom: 5px;
 }
 .navbar-custom .navbar-brand {
@@ -169,7 +169,7 @@ body{
   color: #ffffff;
 }
 
-.btn {
+.button {
     padding: 20px 26px;
     border: 0 none;
     border-radius: 5px;
@@ -201,23 +201,6 @@ body{
   border-radius: 100px;
 }
 
-/* About style */
-.about{
-  min-height: 300;
-  margin-top:90px;
-  margin-right: 0px;
-  margin-left: 0px;
-  background-color: #424242;
-  color:#fafafa;
-}
-
-.about:hover{
-  transition: 0.5s;
-  color: #212121;
-  background-color: #fafafa;
-  box-shadow: 0 0 15px rgba(0,0,0,.2);
-}
-
 
 .profile{
   padding-top: 25px;
@@ -232,51 +215,79 @@ body{
  box-shadow: none;
 }
 
-.detail{
-  padding: 10 5 10 5px;
+
+
+/* About card */
+.about{
+  margin-top: 100px;
+  max-height: 400px;
 }
 
-.detail h2{
-  font-family: 'Raleway',sans-serif;
-  font-size: 3em;
+.about h1{
+  font-weight: 300;
   text-transform: uppercase;
 }
 
-.detail p{
-  font-weight: 300;
-  font-size: 0.95em;
+.about hr{
+  border:1px solid #aeaaaa;
 }
 
-@media only (max-width: 900px){
-  .detail p{
-    font-size: 12x;
-  }
-  .profile{
-  /*padding: 20px 0px 20px px;*/
+.about h4{
+  color: #009688;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.detail h2{
-    text-align: center;
-  }
-  .about{
-    margin-top: 30px;
+.about p {
+  font-size: 16px;
+}
+
+.about .col-lg-4{
+  padding-top: 10px;
+}
+
+.story-card{
+  padding: 0px 20px 20px 20px;
+}
+
+.story-card p{
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.about-card{
+  color: #fafafa;
+  background-color: #34495e;
+  border-radius: 3px;
+  padding: 0px 20px 0px 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+@media (max-width: 1200px){
+  .about-card{
+    margin: 20px;
+    padding: 10px;
   }
 }
+
+@media (max-width: 900px){
+  .about-card{
+    margin: 20px;
+    padding: 10px;
+  }
+}
+
 @media (max-width: 500px){
-  .detail p{
-    font-size: 18.5px;
+  .about-card{
+    margin: 10px;
+    padding: 10px;
   }
-
-  .detail h2{
-    text-align: center;
-  }
-  /*.profile{
-  padding: 20px 20px 10px 20px;*/
 }
 
-.skill{
-  margin-top: 10px;
-  padding:5px;
-  background-color: #eceff1;
+.history .panel-group{
+  padding-top: 5px;
 }
+
+.panel-group li{
+  font-size: 15px;
 }
