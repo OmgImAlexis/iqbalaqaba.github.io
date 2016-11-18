@@ -247,7 +247,7 @@ body{
 }
 
 .story-card{
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;  
 }
 
 .story-card p{
@@ -257,7 +257,7 @@ body{
 
 .about-card{
   color: #fafafa;
-  background-color: #34495e;
+  background-color: #673ab7;
   border-radius: 3px;
   padding: 0px 20px 0px 20px;
   box-shadow: 0 0 15px rgba(0,0,0,.2);
@@ -290,4 +290,18 @@ body{
 
 .panel-group li{
   font-size: 15px;
+}
+
+/* Project */
+
+.project-details p{
+  font-size: 15px;
+}
+.project-details h5{
+  padding-top: 5px;
+}
+
+/* Modal */
+.modal-footer{
+  border-top: none;
 }
